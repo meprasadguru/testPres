@@ -1,0 +1,37 @@
+testPres
+========================================================
+author: Guruprasad
+date: `r date()`
+
+
+First Slide
+========================================================
+transition: rotate
+incremental: true
+
+For more details on authoring R presentations click the
+**Help** button on the toolbar.
+
+- Bullet 1 $x^2$
+
+***
+
+- Bullet 2
+- Bullet 3
+
+Slide With Code
+========================================================
+id: slide2
+[linked phrase](http://example.com)
+
+```{r eval=FALSE}
+summary(cars)
+```
+
+Slide With Plot
+========================================================
+
+[Go to slide 1](#/slide2)
+```{r, echo=FALSE}
+plot(cars)
+```
